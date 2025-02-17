@@ -5,7 +5,7 @@ import CardMedia from "@mui/material/CardMedia";
 import Stack from "@mui/material/Stack";
 import { Attacks } from "./Attacks";
 import { Evolutions } from "./Evolutions";
-import type { Pokemon} from "./types";
+import type { Pokemon } from "./types";
 import gql from "graphql-tag";
 
 type PokemonProps = {

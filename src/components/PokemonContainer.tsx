@@ -31,7 +31,7 @@ const GET_POKEMON_QUERY = gql`
       ...AttacksFragment
       ...EvolutionsFragment
     }
-  },
+  }
   ${POKEMON_FRAGMENT}
   ${ATTACKS_FRAGMENT}
   ${EVOLUTIONS_FRAGMENT}
