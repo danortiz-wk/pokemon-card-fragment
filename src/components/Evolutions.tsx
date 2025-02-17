@@ -13,7 +13,7 @@ export function Evolutions({ evolutions }: EvolutionsProps) {
   return (
       <Stack direction="row" justifyContent='space-between' padding={2}>
         {evolutions.map((e) => (
-        <Item>
+        <Item key={e.number}>
           <Stack alignItems="center">
             <Avatar src={e.image} />
             <Stack>{e.name}</Stack>
