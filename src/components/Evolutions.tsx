@@ -3,7 +3,7 @@ import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import Avatar from "@mui/material/Avatar";
 import { Evolution } from "./types";
-import gql from "graphql-tag";
+import { gql } from "@apollo/client";
 
 type EvolutionsProps = {
   evolutions: Evolution[];

@@ -3,7 +3,7 @@ import Stack from "@mui/material/Stack";
 import { styled } from "@mui/material/styles";
 import Paper from "@mui/material/Paper";
 import { Attack } from "./types";
-import gql from "graphql-tag";
+import { gql } from "@apollo/client";
 
 type AttacksProps = {
   attacks: Attack;
