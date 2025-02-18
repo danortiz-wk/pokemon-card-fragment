@@ -1,1 +1,1 @@
-# Pokemon GraphQL example using Query
+# Pokemon GraphQL example using Fragments
